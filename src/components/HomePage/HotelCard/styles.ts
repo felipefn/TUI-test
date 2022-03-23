@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import card1Img from '../../assets/card1.png'
+import card1Img from '../../../assets/card1.png'
 
 
 export const Container = styled.div`

@@ -1,9 +1,10 @@
 import { Container, Content, Search, Calendar, Guests } from "./styles";
-import iconarrowImg from '../../assets/iconarrow.svg'
-import iconSearchImg from '../../assets/iconsearch.svg'
-import iconCalendarImg from '../../assets/iconcalendar.svg'
-import iconGuestsImg from '../../assets/iconguests.svg'
-export function SearchCard() {
+import iconarrowImg from '../../../assets/iconarrow.svg'
+import iconSearchImg from '../../../assets/iconsearch.svg'
+import iconCalendarImg from '../../../assets/iconcalendar.svg'
+import iconGuestsImg from '../../../assets/iconguests.svg'
+
+export default function SearchCard() {
   return(
 
 
@@ -42,6 +43,7 @@ export function SearchCard() {
     >     
     Pesquisar    
     <img src={iconarrowImg} alt="Pesquisar" /> 
+     
     </button>
 
     

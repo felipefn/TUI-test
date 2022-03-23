@@ -1,5 +1,5 @@
 import { Container, Content } from "./styles";
-import { SearchCard } from "../SearchCard";
+import  SearchCard from "../SearchCard"
 
 
 export function SearchArea() {

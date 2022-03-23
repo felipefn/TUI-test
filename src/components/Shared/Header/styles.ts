@@ -32,4 +32,18 @@ export const Content = styled.div`
     border-radius: 0.25rem;
     height: 3rem;
   }
+
+  .search {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #092A5E;
+    background: #FFFFFF ;
+    border: 0;
+    padding: 0.95rem 1rem 1rem 1rem;
+    border-radius: 0.25rem;
+    height: 3rem;
+    text-decoration: none;
+    align-self: center;
+  }
+  
 `
