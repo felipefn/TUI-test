@@ -12,7 +12,7 @@ export function Header() {
           <img src={logoImg} alt="Logo Tui" />  
         </Link>  
           
-        <Link to="/search"className='search'>
+        <Link to="/search" className='search'>
           Buscar Hotéis 
         </Link>    
 

@@ -1,15 +1,11 @@
 import react from 'React'
-import axios from 'React'
 
-interface Token {
-  auth: string
-}
+
+
 
 const baseUrl = 'https://test.api.amadeus.com/v3'
 const authUrl = '/security/oauth2/token'
-const clientId = '5JNWQ2meefL44GjweGaGUxzsuzVrhALm'
-const clientSecret = 'yWfARw82NeV2Ozj9'
-const grantType = 'client_credentials'
+
 
 
 const body = new URLSearchParams({
